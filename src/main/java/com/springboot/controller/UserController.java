@@ -17,7 +17,7 @@ public class UserController {
 
     @Autowired
     private UserMapper userMapper;
-
+//这是我们的修改方法
     @RequestMapping("/find")
     public String find(Model model){
 
